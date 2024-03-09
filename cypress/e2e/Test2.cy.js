@@ -47,7 +47,9 @@ it('Using Get with find and eq', () => {
     cy.get('tbody').find('td').eq(3)
 }
 )
-//коммент
+
+
+
 it.only('https://docs.cypress.io/api/commands/eq', () => {
     cy.viewport(1800,700)
     cy.visit('https://docs.cypress.io/api/commands/eq#Syntax')
