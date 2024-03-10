@@ -10,6 +10,7 @@ it('' , () => {
 })
 
 //нерабочий, нет примера
+// нужен пример
 it('' , () => {
     cy.visit('https://docs.cypress.io/guides/overview/why-cypress')
     cy.get('footer').contains('theme-last-updated');   //get проигнорировван из-за иерархии
